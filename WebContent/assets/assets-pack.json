@@ -1,0 +1,56 @@
+{
+    "level": [{
+        "type": "image",
+        "key": "mono",
+        "url": "assets/images/mono.png",
+        "overwrite": false
+    }],
+    "start": [{
+        "type": "image",
+        "key": "tap-to-start",
+        "url": "assets/images/tap-to-start.png",
+        "overwrite": false
+    }],
+    "preload": [{
+        "type": "image",
+        "key": "loading",
+        "url": "assets/images/loading.png",
+        "overwrite": false
+    }],
+    "game": [
+        {
+            "type": "atlas",
+            "key": "spritesheet-conveyor",
+            "textureURL": "assets/images/spritesheet-conveyor.png",
+            "atlasURL": "assets/images/spritesheet-conveyor.json",
+            "format": "TEXTURE_ATLAS_JSON_ARRAY"
+        },
+        {
+            "type": "atlas",
+            "key": "spritesheet-cow-dying",
+            "textureURL": "assets/images/spritesheet-cow-dying.png",
+            "atlasURL": "assets/images/spritesheet-cow-dying.json",
+            "format": "TEXTURE_ATLAS_JSON_ARRAY"
+        },
+        {
+            "type": "atlas",
+            "key": "spritesheet-cow",
+            "textureURL": "assets/images/spritesheet-cow.png",
+            "atlasURL": "assets/images/spritesheet-cow.json",
+            "format": "TEXTURE_ATLAS_JSON_ARRAY"
+        },
+        {
+            "type": "image",
+            "key": "moomasher",
+            "url": "assets/images/moomasher.png",
+            "overwrite": false
+        }
+    ],
+    "meta": {
+        "generated": "1483398584651",
+        "app": "Phaser Editor",
+        "url": "http://phasereditor.boniatillo.com",
+        "version": "1.0",
+        "copyright": "Arian Fornaris (c) 2015,2016"
+    }
+}

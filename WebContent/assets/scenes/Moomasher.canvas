@@ -1,0 +1,87 @@
+{
+  "settings": {
+    "sceneWidth": 1200,
+    "sceneHeight": 800,
+    "sceneColor": [
+      255,
+      255,
+      255
+    ],
+    "generateOnSave": true,
+    "enableStepping": false,
+    "stepWidth": 129,
+    "stepHeight": 93
+  },
+  "world": {
+    "type": "group",
+    "id": "8e54e7fd-c399-4532-9534-723540a9e6ac",
+    "info": {
+      "editorName": "moomasher",
+      "children": [
+        {
+          "type": "atlas-sprite",
+          "id": "a85934fb-0690-4ebc-8e4d-d4368dea1be2",
+          "asset": "0",
+          "info": {
+            "editorName": "cow",
+            "editorPublic": true,
+            "x": 1160,
+            "y": 515,
+            "body": {"type": "ARCADE_RECT"}
+          }
+        },
+        {
+          "type": "image",
+          "id": "49f79c7a-69e3-4260-81a6-3535f69a1e67",
+          "asset": "1",
+          "info": {
+            "editorName": "moomasher",
+            "editorPublic": true,
+            "x": 311,
+            "y": 472
+          }
+        },
+        {
+          "type": "group",
+          "id": "9c613498-0744-4445-88e0-e039793b7d35",
+          "info": {
+            "editorName": "collisionGroup",
+            "editorPublic": true,
+            "physicsGroup": true,
+            "children": [{
+              "type": "atlas-sprite",
+              "id": "aee057d4-4eb0-4413-8c5d-47505fbfb1c3",
+              "asset": "2",
+              "info": {
+                "editorName": "conveyor",
+                "editorPublic": true,
+                "x": 593,
+                "y": 637,
+                "body": {"type": "ARCADE_RECT"}
+              }
+            }]
+          }
+        }
+      ]
+    }
+  },
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "game",
+      "asset": "spritesheet-cow",
+      "sprite": "cow-standing"
+    },
+    "1": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "game",
+      "asset": "moomasher"
+    },
+    "2": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "game",
+      "asset": "spritesheet-conveyor",
+      "sprite": "conveyor-1"
+    }
+  }
+}
